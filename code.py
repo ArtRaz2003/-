@@ -38,8 +38,7 @@ from sklearn.metrics import (
 )
 from sklearn.model_selection import learning_curve, validation_curve
 
-from imblearn.over_sampling import SMOTE
-from imblearn.combine import SMOTETomek
+
 
 plt.style.use('seaborn-v0_8-darkgrid')
 sns.set_palette("husl")
